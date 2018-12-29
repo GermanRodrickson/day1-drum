@@ -1,8 +1,4 @@
-body {
-  background-image: url("../img/which-john-smith-paint-1038x576.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
 
 .wrapper {
   display: flex;
@@ -23,5 +19,6 @@ body {
 }
 
 .active {
+  transform: scale(1.1);
   box-shadow: 0px 0px 47px 2px rgba(241,196,15,1);
 }
