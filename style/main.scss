@@ -1,4 +1,26 @@
+body {
+  background-image: url("../img/which-john-smith-paint-1038x576.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .wrapper {
   display: flex;
   justify-content: center;
+  margin-top: 20%;
+  .box {
+    width: 25px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    font-size: 20px;
+    border: 3px solid black;
+    background-color:rgba(black,0.6);
+    color: #FFFFFF;
+    border-radius: 6px;
+  }
+}
+
+.active {
+  box-shadow: 0px 0px 47px 2px rgba(241,196,15,1);
 }
